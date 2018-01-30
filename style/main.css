@@ -82,58 +82,45 @@
   text-decoration: none;
   color: #ffffff;
   text-align: center;
-  font-size: 15px;
-  padding: 10px 10px 10px 50px;
+  font-size: 17px;
+  padding: 10px 10px 10px 10px;
   list-style-type: none;
   position: relative;
+  white-space: nowrap;
 }
 .main-info-block ul .info-block span {
   display: inline-block;
+  white-space: normal;
 }
 .main-info-block ul .info-block:nth-child(1) .info-icon {
   background: url("../images/interactive-pay.png") 0px 0px;
   width: 35px;
   height: 30px;
   background-size: 40px;
-  position: absolute;
-  top: 13px;
-  left: 30px;
 }
 .main-info-block ul .info-block:nth-child(2) .info-icon {
   background: url("../images/evert-day-analize.png") 0px 0px;
   width: 35px;
   height: 35px;
   background-size: 40px;
-  position: absolute;
-  top: 9px;
-  left: 40px;
 }
 .main-info-block ul .info-block:nth-child(3) .info-icon {
   background: url("../images/auto-pay.png") 0px 0px;
   width: 35px;
   height: 35px;
   background-size: 40px;
-  position: absolute;
-  top: 11px;
-  left: 25px;
 }
 .main-info-block ul .info-block:nth-child(4) .info-icon {
   background: url("../images/money.png") 0px 0px;
   width: 35px;
   height: 41px;
   background-size: 35px;
-  position: absolute;
-  top: 10px;
-  left: 25px;
 }
 .main-info-block ul .info-block:nth-child(5) .info-icon {
   background: url("../images/during-week.png") 0px 0px;
   width: 35px;
   height: 35px;
   background-size: 40px;
-  position: absolute;
-  top: 13px;
-  left: 5px;
 }
 @media (min-width: 768px) {
   .header-wrap .navbar .main-nav-wrap .navbar-collapse .navbar-nav li a {
