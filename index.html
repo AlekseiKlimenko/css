@@ -3,9 +3,11 @@
 <head>
     <title></title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Latest compiled and minified CSS -->
 
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/clock.css">
     <link rel="stylesheet" href="./style/main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -17,81 +19,334 @@
                 auto: true,
                 autoControls: true,
                 stopAutoOnClick: true,
-                pager: true
+                pager: true,
+                responsive: true
             });
         });
     </script>
 </head>
     <body>
-        <div class="header-wrap">
-            <nav class="navbar navbar-default navbar-fixed-top gradient" role="navigation">
-                <div class="head-title">
-                    <div class="container-fluid">
-                        <span>BITCOIN</span>
-                        FOREX BROKER
-                    </div>
-                </div>
-                <div class="main-nav-wrap">
-                    <div class="container-fluid">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-9">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="#"></a>
-                    </div>
 
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-9" style="height: 1px;">
-                        <ul class="nav navbar-nav">
-                            <li class="active"><a href="#">О компании</a></li>
-                            <li><a href="#">Условия и Соглашения</a></li>
-                            <li><a href="#">Войти</a></li>
-                        </ul>
-                    </div><!-- /.navbar-collapse -->
-                </div><!-- /.container-fluid -->
+    <div class="header-wrap">
+        <nav class="navbar navbar-default navbar-fixed-top gradient" role="navigation">
+        <div class="container-fluid">
+            <div class="head-title">
+                <span>BITCOIN</span>
+                FOREX BROKER
+            </div>
+        </div>
+        <div class="main-nav-wrap">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-9">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"></a>
                 </div>
-            </nav>
-        </div>
-        <div class="slider-wrap">
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-9" style="height: 1px;">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">О компании</a></li>
+                        <li><a href="#">Условия и Соглашения</a></li>
+                        <li><a href="#">Войти</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+    <div class="slider-wrap">
             <div class="bxslider">
-                <div><img src="./images/slide/slide_1.png"></div>
-                <div><img src="./images/slide/slide_2.png"></div>
-                <div><img src="./images/slide/slide_3.png"></div>
-                <div><img src="./images/slide/slide_4.png"></div>
-                <div><img src="./images/slide/slide_5.png"></div>
+                <div class="image-bx-wrap">
+                    <img src="./images/slide/slide_1.png">
+                    <div class="bx-info">
+                        БУДЬ В КУРСЕ</br> САМЫХ РЕШАЮЩИХ СОБЫТИЙ
+                    </div>
+                </div>
+                <div class="image-bx-wrap"><img src="./images/slide/slide_2.png">
+                    <div class="bx-info">
+                        УЗНАЙ ВСЕ</br> О РАБОТЕ С КРИПТОВАЛЮТАМИ
+                    </div></div>
+                <div class="image-bx-wrap"><img src="./images/slide/slide_3.png">
+                    <div class="bx-info">
+                        ДОСТУП К ТЕРМИНАЛУ</br> ИЗ ЛЮБОЙ ТОЧКИ МИРА
+                    </div></div>
+                <div class="image-bx-wrap"><img src="./images/slide/slide_4.png">
+                    <div class="bx-info">
+                        САМАЯ ТОЧНАЯ</br> АНАЛИТИКА
+                    </div></div>
+                <div class="image-bx-wrap"><img src="./images/slide/slide_5.png">
+                    <div class="bx-info">
+                        БОЛЕЕ 50-ТИ </br> ИНСТРУМЕНТОВ ТРЕЙДИНГА
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="main-info-block ">
-            <div class="container-fluid">
-                <ul class="row">
-                    <li class="info-block col-md-2 col-sm-4 col-xs-6">
-                        <span class="info-icon"></span>
-                        <span>интерактивный терминал</span>
-                    </li>
-                    <li class="info-block col-md-2 col-sm-4 col-xs-6">
-                        <span class="info-icon"></span>
-                        <span>ежедневная аналитика</span>
-                    </li>
-                    <li class="info-block col-md-2 col-sm-4 col-xs-6">
-                        <span class="info-icon"></span>
-                        <span>автоматические выплаты</span>
-                    </li>
-                    <li class="info-block col-md-2 col-sm-4 col-xs-6">
-                        <span class="info-icon"></span>
-                        <span>лучший курс для обмена</span>
-                    </li>
-                    <li class="info-block col-md-2 col-sm-4 col-xs-6">
-                        <span class="info-icon"></span>
-                        <span>непрерывный  график работы</span>
-                    </li>
-                </ul>
+    <div class="main-info-block">
+        <div class="container-fluid">
+            <ul>
+                <li class="info-block">
+                    <div class="info-icon-wrap">
+                        <span class="info-icon_1"></span>
+                    </div>
+                    <span>интерактивный терминал</span>
+                </li>
+                <li class="info-block">
+                    <div class="info-icon-wrap">
+                        <span class="info-icon_2"></span>
+                    </div>
+                    <span>ежедневная аналитика</span>
+                </li>
+                <li class="info-block">
+                    <div class="info-icon-wrap">
+                        <span class="info-icon_3"></span>
+                    </div>
+                    <span>автоматические выплаты</span>
+                </li>
+                <li class="info-block">
+                    <div class="info-icon-wrap">
+                        <span class="info-icon_4"></span>
+                    </div>
+                    <span>лучший курс для обмена</span>
+                </li>
+                <li class="info-block">
+                    <div class="info-icon-wrap">
+                        <span class="info-icon_5"></span>
+                    </div>
+                    <span>непрерывный  график работы</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="running-string"></div>
+    <div class="white-border"></div>
+    <div class="clock-wrap hidden-xs">
+        <div class="clock-title">МИРОВОЕ ВРЕМЯ</div>
+        <div class="clocks-wrap">
+            <div class="one-clock">
+                <div class="name-city">London</div>
+                <article id="time" class="gradient-time">
+                    <div id="center"></div>
+                    <div id="second"></div>
+                    <div id="minute"></div>
+                    <div id="hour"></div>
+                </article>
+            </div>
+            <div class="one-clock">
+                <div class="name-city">Moscow</div>
+                <article id="time" class="gradient-time">
+                    <div id="center"></div>
+                    <div id="second"></div>
+                    <div id="minute"></div>
+                    <div id="hour"></div>
+                </article>
+            </div>
+            <div class="one-clock">
+                <div class="name-city">New York</div>
+                <article id="time" class="gradient-time">
+                    <div id="center"></div>
+                    <div id="second"></div>
+                    <div id="minute"></div>
+                    <div id="hour"></div>
+                </article>
+            </div>
+            <div class="one-clock">
+                <div class="name-city">Paris</div>
+                <article id="time" class="gradient-time">
+                    <div id="center"></div>
+                    <div id="second"></div>
+                    <div id="minute"></div>
+                    <div id="hour"></div>
+                </article>
+            </div>
+            <div class="one-clock">
+                <div class="name-city">Tokyo</div>
+                <article id="time" class="gradient-time">
+                    <div id="center"></div>
+                    <div id="second"></div>
+                    <div id="minute"></div>
+                    <div id="hour"></div>
+                </article>
             </div>
         </div>
-        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
+    </div>
+    <div class="white-border"></div>
+    <div class="exchange-rates-wrap">
+        <div class="container-fluid">
+            <div class="exchange-rates-main-block">
+                <div class="exchange-rates">
+                    <div class="name active">BTC/USD</div>
+                    <div class="coast">123456478.5454</div>
+                </div>
+                <div class="exchange-rates change">
+                    <div class="name">BTC/USD</div>
+                    <div class="coast">123456478.5454</div>
+                </div>
+                <div class="exchange-rates change">
+                    <div class="name">BTC/USD</div>
+                    <div class="coast">123456478.5454</div>
+                </div>
+                <div class="exchange-rates change">
+                    <div class="name">BTC/USD</div>
+                    <div class="coast">123456478.5454</div>
+                </div>
+                <div class="exchange-rates">
+                    <div class="name ">BTC/USD</div>
+                    <div class="coast">123456478.5454</div>
+                </div>
+                <div class="exchange-rates">
+                    <div class="name ">BTC/USD</div>
+                    <div class="coast">123456478.5454</div>
+                </div>
+                <div class="exchange-rates">
+                    <div class="name ">BTC/USD</div>
+                    <div class="coast">123456478.5454</div>
+                </div>
+                <div class="exchange-rates">
+                    <div class="name ">BTC/USD</div>
+                    <div class="coast">123456478.5454</div>
+                </div>
+                <div class="exchange-rates">
+                    <div class="name ">BTC/USD</div>
+                    <div class="coast">123456478.5454</div>
+                </div>
+                <div class="exchange-rates">
+                    <div class="name ">BTC/USD</div>
+                    <div class="coast">123456478.5454</div>
+                </div>
+                <div class="exchange-rates">
+                    <div class="name ">BTC/USD</div>
+                    <div class="coast">123456478.5454</div>
+                </div>
+                <div class="exchange-rates">
+                    <div class="name ">BTC/USD</div>
+                    <div class="coast">123456478.5454</div>
+                </div>
+                <div class="exchange-rates">
+                    <div class="name ">BTC/USD</div>
+                    <div class="coast">123456478.5454</div>
+                </div>
+                <div class="exchange-rates">
+                    <div class="name ">BTC/USD</div>
+                    <div class="coast">123456478.5454</div>
+                </div>
+                <div class="exchange-rates">
+                    <div class="name ">BTC/USD</div>
+                    <div class="coast">123456478.5454</div>
+                </div>
+                <div class="exchange-rates">
+                    <div class="name ">BTC/USD</div>
+                    <div class="coast">123456478.5454</div>
+                </div>
+                <div class="exchange-rates">
+                    <div class="name ">BTC/USD</div>
+                    <div class="coast">123456478.5454</div>
+                </div>
+                <div class="exchange-rates">
+                    <div class="name ">BTC/USD</div>
+                    <div class="coast">123456478.5454</div>
+                </div>
+                <div class="exchange-rates">
+                    <div class="name ">BTC/USD</div>
+                    <div class="coast">123456478.5454</div>
+                </div>
+                <div class="exchange-rates">
+                    <div class="name ">BTC/USD</div>
+                    <div class="coast">123456478.5454</div>
+                </div>
+                <div class="exchange-rates">
+                    <div class="name ">BTC/USD</div>
+                    <div class="coast">123456478.5454</div>
+                </div>
+                <div class="exchange-rates">
+                    <div class="name ">BTC/USD</div>
+                    <div class="coast">123456478.5454</div>
+                </div>
+                <div class="exchange-rates">
+                    <div class="name ">BTC/USD</div>
+                    <div class="coast">123456478.5454</div>
+                </div>
+                <div class="exchange-rates">
+                    <div class="name ">BTC/USD</div>
+                    <div class="coast">123456478.5454</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="white-border"></div>
+    <div class="info-about-wrap">
+        <div class="container-fluid">
+            <div class="info-block_1 col-xs-12 col-sm-5 col-md-5">
+                <div class="info-about-block">
+                    <div class="title-block">
+                        <span class="img-title"></span>
+                        <span class="title">СПЛОЧЁННАЯ КОМАНДА <br>ЛИДЕРОВ МИРОВОЙ ТОРГОВЛИ</span>
+                    </div>
+                    <div class="current-info">
+                        Сопровождение в работе от лучших мировых специалистов в сфере финансовых услуг и трейдинга для стабильной прибыли каждого из наших партнёров - наша главная задача!
+                    </div>
+                </div>
+            </div>
+            <div class="info-block_2 col-xs-12 col-sm-5 col-md-5">
+                <div class="info-about-block">
+                    <div class="title-block">
+                        <span class="img-title"></span>
+                        <span class="title">СПЛОЧЁННАЯ КОМАНДА<br> ЛИДЕРОВ МИРОВОЙ ТОРГОВЛИ</span>
+                    </div>
+                    <div class="current-info">
+                        Сопровождение в работе от лучших мировых специалистов в сфере финансовых услуг и трейдинга для стабильной прибыли каждого из наших партнёров - наша главная задача!
+                    </div>
+                </div>
+            </div>
+            <div class="info-block_3 col-xs-12 col-sm-5 col-md-5">
+                <div class="info-about-block">
+                    <div class="title-block">
+                        <span class="img-title"></span>
+                        <span class="title">СПЛОЧЁННАЯ КОМАНДА <br>ЛИДЕРОВ МИРОВОЙ ТОРГОВЛИ</span>
+                    </div>
+                    <div class="current-info">
+                        Сопровождение в работе от лучших мировых специалистов в сфере финансовых услуг и трейдинга для стабильной прибыли каждого из наших партнёров - наша главная задача!
+                    </div>
+                </div>
+            </div>
+            <div class="info-block_4 col-xs-12 col-sm-5 col-md-5">
+                <div class="info-about-block">
+                    <div class="title-block">
+                        <span class="img-title"></span>
+                        <span class="title">СПЛОЧЁННАЯ КОМАНДА<br> ЛИДЕРОВ МИРОВОЙ ТОРГОВЛИ</span>
+                    </div>
+                    <div class="current-info">
+                        Сопровождение в работе от лучших мировых специалистов в сфере финансовых услуг и трейдинга для стабильной прибыли каждого из наших партнёров - наша главная задача!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="white-border"></div>
+    <div class="payment-block">
+        <div class="container-fluid">
+            Bitcoin Forex Broker<br>
+            Copyright © 2018 BitFB.com<br>
+            All righrs reserved.
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container-fluid">
+            © 2011–2018 Bitcoin Forex Broker Corporation. Все права защищены. Товарные знаки BitFB, BitcoinForex и семейство товарных знаков bitfb.com принадлежат Bitcoin Forex Broker Corporation. Все прочие товарные знаки, представленные на этом сайте, являются собственностью соответствующих владельцев.
+            Торговля контрактами на иностранную валюту или иными внебиржевыми продуктами с использованием маржи и кредитного плеча влечет высокие риски и подходит не всем инвесторам. Рекомендуем вам тщательно оценить, подходят ли вам такие торговые операции с учетом ваших личных обстоятельств. Ваши убытки могут превысить объем ваших инвестиций. Информация, приведенная на данном сайте, носит общий характер. Рекомендуем вам до начала торговли обратиться за помощью к независимым консультантам и убедиться, что вы полностью понимаете все сопутствующие риски. Торговля посредством онлайн-платформы влечет дополнительные риски. См. раздел «Правовые вопросы» здесь.
+            Финансовый спред-беттинг доступен только клиентам BitFB Europe Ltd, являющимся резидентами Соединенного Королевства или Республики Ирландия. Контракты на разницу, функции хеджирования и кредитное плечо свыше 50:1 недоступны для резидентов Соединенных Штатов Америки. Информация на этом сайте не предназначена для жителей стран, в которых ее распространение или использование любым лицом противоречит местным законам и правилам.
+            <div class="footer-other-info">
+                BitFB Corporation — уполномоченный посредник в срочных биржевых операциях и валютный дилер, зарегистрированный Комиссией по торговле товарными фьючерсами; член Национальной фьючерсной ассоциации, рег. № 03675821.
+                В необходимых случаях см. ПРЕДУПРЕЖДЕНИЕ НФА ДЛЯ ИНВЕСТОРОВ НА РЫНКЕ ФОРЕКС.
+            </div>
+        </div>
+    </div>
+
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
         <script src="./js/bootstrap.min.js"></script>
+        <script src="./js/clock.js"></script>
     </body>
 </html>

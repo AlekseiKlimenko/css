@@ -1,3 +1,15 @@
-.new {
-  color: red;
+@media (min-width: 768px) {
+  .navbar .navbar-collapse .navbar-nav {
+    float: right;
+  }
+  .container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .container-fluid {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
